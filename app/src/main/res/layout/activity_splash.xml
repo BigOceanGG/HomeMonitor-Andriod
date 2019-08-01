@@ -9,14 +9,14 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:paddingBottom="200dp"
+        android:background="@color/bg_common"
         android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/imageButton"
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/logo" />
-
+            app:srcCompat="@drawable/logo" />
     </LinearLayout>
 
     <TextView
