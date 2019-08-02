@@ -13,6 +13,26 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="BasicButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/basic_btn_colored_background</item>
+        <item name="android:textAppearance">@style/BasicTextAppearance.AppCompat.Light</item>
+    </style>
+
+    <style name="BasicButton.Bordered" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/basic_btn_bordered_background</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+    <style name="BasicButton.Bordered.Orange" parent="BasicButton.Bordered">
+        <item name="basic_btn_border_color">?attr/colorAccent</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="basic_btn_border_radius">6dp</item>
+    </style>
+
+    <style name="BasicTextAppearance.AppCompat.Light" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/background_light</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

@@ -1,13 +1,24 @@
 package com.ocean.homemonitor;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        launch();
+    }
+
+    private void launch() {
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                GenerateActivity.launch(mActivity);
+                finish();
+            }
+        }, 500);
+
     }
 }

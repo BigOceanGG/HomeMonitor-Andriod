@@ -4,4 +4,10 @@
     <color name="colorPrimaryDark">#A6A6A6</color>
     <color name="colorAccent">#D81B60</color>
     <color name="bg_common">#FFFFFF</color>
+
+    <color name="basic_primary">#ff6565</color>
+    <color name="basic_btn_colored_background_light">@color/basic_primary</color>
+
+    <color name="basic_divider_light">#e8e8eb</color>
+    <color name="basic_btn_border_color">@color/basic_divider_light</color>
 </resources>
