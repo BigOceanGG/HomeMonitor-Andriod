@@ -2,4 +2,7 @@
     <string name="app_name">HomeMonitor</string>
     <string name="action_settings">Settings</string>
     <string name="copy_right">2019 ALL rights reserved</string>
+
+    <string name="generate_createuser">create user</string>
+    <string name="generate_login">user login</string>
 </resources>

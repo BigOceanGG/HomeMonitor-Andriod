@@ -2,4 +2,7 @@
     <string name="app_name">管家</string>
     <string name="action_settings">设置</string>
     <string name="copy_right">2019 ALL rights reserved</string>
+
+    <string name="generate_createuser">创建用户</string>
+    <string name="generate_login">用户登录</string>
 </resources>
