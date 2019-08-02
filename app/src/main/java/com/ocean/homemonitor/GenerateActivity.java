@@ -36,7 +36,8 @@ public class GenerateActivity extends BaseActivity implements View.OnClickListen
 
                 break;
             case R.id.btn_login:
-
+                LoginActivity.launch(mActivity);
+                finish();
                 break;
         }
     }
