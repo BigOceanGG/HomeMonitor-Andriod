@@ -18,7 +18,7 @@ public class SplashActivity extends BaseActivity {
                 GenerateActivity.launch(mActivity);
                 finish();
             }
-        }, 500);
+        }, 2000);
 
     }
 }
