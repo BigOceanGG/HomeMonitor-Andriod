@@ -5,4 +5,11 @@
 
     <string name="generate_createuser">create user</string>
     <string name="generate_login">user login</string>
+
+    <string name="password_input">Enter Password</string>
+    <string name="password_wrong">Password Error</string>
+
+    <string name="basic_alert_dialog_ok">OK</string>
+    <string name="basic_alert_dialog_confirm">Confirm</string>
+    <string name="basic_alert_dialog_cancel">Cancel</string>
 </resources>

@@ -13,6 +13,39 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="LoadingDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <style name="Base.BasicDialog" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="basic_btn_border_radius">@dimen/basic_btn_border_radius</item>
+    </style>
+
+    <style name="Base.BasicDialog.Light" parent="Base.BasicDialog" />
+
+    <style name="BasicDialog.Light" parent="Base.BasicDialog.Light">
+        <item name="basic_btn_border_color">@color/basic_divider_light</item>
+        <item name="basic_dialog_background">@drawable/basic_dialog_background_light</item>
+    </style>
+
+    <style name="BasicAlertDialog.Light" parent="BasicDialog.Light">
+        <item name="basic_dialog_title_text_color">@color/basic_dialog_primary_text_light
+        </item>
+        <item name="basic_dialog_content_text_color">@color/basic_dialog_tertiary_text_light
+        </item>
+        <item name="basic_dialog_positive_button_style">@style/BasicButton</item>
+        <item name="basic_dialog_negative_button_style">@style/BasicButton.Bordered</item>
+    </style>
+
     <style name="BasicButton" parent="Widget.AppCompat.Button.Colored">
         <item name="android:background">@drawable/basic_btn_colored_background</item>
         <item name="android:textAppearance">@style/BasicTextAppearance.AppCompat.Light</item>

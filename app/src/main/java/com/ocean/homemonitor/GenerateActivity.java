@@ -27,6 +27,13 @@ public class GenerateActivity extends BaseActivity implements View.OnClickListen
     public static void launch(Activity from) {
         Intent intent = new Intent(from, GenerateActivity.class);
         from.startActivity(intent);
+        openAlpha(from);
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        closeAlpha(mActivity);
     }
 
     @Override
