@@ -22,7 +22,7 @@
 
 
             <com.ocean.homemonitor.XyTabLayout
-                android:id="@+id/tl_wallet"
+                android:id="@+id/tl_weather"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 app:xy_colorChangeFirst="@color/orange"
@@ -38,7 +38,7 @@
         </LinearLayout>
 
         <android.support.v4.view.ViewPager
-            android:id="@+id/vp_wallet"
+            android:id="@+id/vp_weather"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
