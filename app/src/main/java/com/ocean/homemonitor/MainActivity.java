@@ -43,6 +43,7 @@ public class MainActivity extends BaseActivity {
 
     private void initView() {
         mFragments.add(HomeSceneFragment.newInstance());
+        mFragments.add(HomeSettingFragment.newInstance());
         FragmentPagerAdapter adapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {
@@ -54,7 +55,7 @@ public class MainActivity extends BaseActivity {
                 return mFragments.size();
             }
         };
-        //mBinding.vpMain.setAdapter(adapter);
+        mBinding.vpMain.setAdapter(adapter);
         TabLayout tabLayout = mBinding.tlMain;
         tabLayout.addTab(tabLayout.newTab());
         tabLayout.addTab(tabLayout.newTab());

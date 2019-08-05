@@ -25,4 +25,5 @@
 
     <color name="blue">#0E81FF</color>
     <color name="text_weak">#939399</color>
+    <color name="color_root">#FAFAFA</color>
 </resources>
