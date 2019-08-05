@@ -12,4 +12,7 @@
     <string name="basic_alert_dialog_ok">OK</string>
     <string name="basic_alert_dialog_confirm">Confirm</string>
     <string name="basic_alert_dialog_cancel">Cancel</string>
+
+    <string name="nav_scene">Scene</string>
+    <string name="nav_setting">Setting</string>
 </resources>

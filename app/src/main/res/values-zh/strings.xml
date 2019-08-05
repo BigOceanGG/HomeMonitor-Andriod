@@ -12,4 +12,7 @@
     <string name="basic_alert_dialog_ok">好的</string>
     <string name="basic_alert_dialog_confirm">确定</string>
     <string name="basic_alert_dialog_cancel">取消</string>
+
+    <string name="nav_scene">场景</string>
+    <string name="nav_setting">设置</string>
 </resources>

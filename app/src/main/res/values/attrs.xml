@@ -10,4 +10,41 @@
     <attr name="basic_dialog_positive_button_style" format="reference" />
     <attr name="basic_dialog_negative_button_style" format="reference" />
     <attr name="basic_dialog_content_text_color" format="color|reference" />
+
+    <declare-styleable name="XyTabLayout">
+        <attr name="indicatorPadding" format="dimension" />
+        <attr name="xy_tabIndicatorColor" format="color" />
+        <attr name="xy_tabIndicatorHeight" format="dimension" />
+        <attr name="xy_tabIndicatorWidth" format="dimension" />
+        <attr name="xy_tabContentStart" format="dimension" />
+        <attr name="xy_tabBackground" format="reference" />
+        <attr name="xy_tabMode">
+            <enum name="scrollable" value="0" />
+            <enum name="fixed" value="1" />
+        </attr>
+        <attr name="xy_tabGravity">
+            <enum name="fill" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+        <attr name="xy_tabMinWidth" format="dimension" />
+        <attr name="xy_tabMaxWidth" format="dimension" />
+        <attr name="xy_tabTextAppearance" format="reference" />
+        <attr name="xy_tabTextColor" format="color" />
+        <attr name="xy_tabSelectedTextColor" format="color" />
+        <attr name="xy_tabPaddingStart" format="dimension" />
+        <attr name="xy_tabPaddingTop" format="dimension" />
+        <attr name="xy_tabPaddingEnd" format="dimension" />
+        <attr name="xy_tabPaddingBottom" format="dimension" />
+        <attr name="xy_tabPadding" format="dimension" />
+        <attr name="xy_tabSelectedBold" format="boolean" />
+        <attr name="xy_colorChangeable" format="boolean" />
+        <attr name="xy_colorChangeFirst" format="color" />
+        <attr name="xy_colorChangeSecond" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="XTabItem">
+        <attr name="android:text" />
+        <attr name="android:icon" />
+        <attr name="android:layout" />
+    </declare-styleable>
 </resources>

@@ -74,7 +74,8 @@ public class LoginActivity extends BaseActivity{
                 String password = mBinding.etPassword.getText().toString();
                 if(password.equals("123")){
                     mLoadTask = new LoadTask().execute(password);
-                    //finish();
+                    finish();
+                    MainActivity.launch(mActivity, true);
                     return;
                 }
                 mBinding.etPassword.setText("");
