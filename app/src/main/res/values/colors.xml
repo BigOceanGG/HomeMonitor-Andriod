@@ -26,4 +26,9 @@
     <color name="blue">#0E81FF</color>
     <color name="text_weak">#939399</color>
     <color name="color_root">#FAFAFA</color>
+
+    <color name="color_blue_weak">#0E81FF</color>
+    <color name="color_blue_strong">#0174FF</color>
+    <color name="color_orange_weak">#FF6B6B</color>
+    <color name="color_orange_strong">#FF4E4E</color>
 </resources>
