@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_gravity="top"
-            android:background="@color/color_root"
+            android:background="@color/blue"
             android:onClick="@{click.onClick}"
             app:contentInsetStartWithNavigation="0dp"
             app:navigationIcon="@drawable/ico_back_black"

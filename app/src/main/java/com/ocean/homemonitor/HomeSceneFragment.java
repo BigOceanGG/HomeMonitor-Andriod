@@ -66,28 +66,4 @@ public class HomeSceneFragment extends BaseFragment {
         mBinding.tlWeather.setColor(ContextCompat.getColor(mActivity, R.color.orange),
                 ContextCompat.getColor(mActivity, R.color.blue));
     }
-
-    @Override
-    public void setUserVisibleHint(boolean isVisibleToUser) {
-        super.setUserVisibleHint(isVisibleToUser);
-        if (isVisibleToUser && mBinding != null) {
-            if (mBinding.tlWeather.getSelectedTabPosition() == 0) {
-               // mFragments.get(0).getData();
-            } else {
-              //  mFragments.get(1).getData();
-            }
-        }
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        if (mBinding != null) {
-            if (mBinding.tlWeather.getSelectedTabPosition() == 0) {
-                //mFragments.get(0).getData();
-            } else {
-                //mFragments.get(1).getData();
-            }
-        }
-    }
 }

@@ -42,6 +42,7 @@ public class TabWeatherFragment extends BaseFragment implements View.OnClickList
         mBinding.rvWeather.setLayoutManager(new LinearLayoutManager(mActivity));
         mBinding.rvWeather.setAdapter(mAdapter);
         initData();
+        initListener();
         return mBinding.getRoot();
     }
 
@@ -61,6 +62,26 @@ public class TabWeatherFragment extends BaseFragment implements View.OnClickList
             }
             mAdapter.notifyDataSetChanged();
         }
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+    }
+
+    private void initListener() {
+        mInnerAdapter.setOnItemClickListener(new BaseAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClickListener(View view, int position) {
+                if (position < mData.size()) {
+                    for (int i = 0, len = 3; i < len; i++) {
+                        Account ac = new Account();
+                        ac.setNonce(i);
+                        mData.add(ac);
+                    }
+                }
+            }
+        });
     }
 
     @Override
