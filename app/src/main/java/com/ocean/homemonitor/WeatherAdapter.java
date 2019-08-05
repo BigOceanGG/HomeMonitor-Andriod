@@ -41,6 +41,7 @@ public class WeatherAdapter extends BaseAdapter<Account> {
         } else {
             index = String.valueOf(position + 1);
         }
+        binding.tvIndex.setText(index);
         if (mType == TabWeatherFragment.TYPE_SUMMER) {
             binding.flAdd.setBackground(ContextCompat.getDrawable(mContext, R.drawable.bg_gradient_summer));
         } else {

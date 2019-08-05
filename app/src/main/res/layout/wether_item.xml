@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|end"
-                android:textColor="@color/blue"
+                android:textColor="@color/white"
                 android:textSize="40sp"
                 tools:text="01" />
         </FrameLayout>

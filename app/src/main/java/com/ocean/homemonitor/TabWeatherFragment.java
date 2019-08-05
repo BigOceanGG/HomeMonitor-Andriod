@@ -74,11 +74,6 @@ public class TabWeatherFragment extends BaseFragment implements View.OnClickList
             @Override
             public void onItemClickListener(View view, int position) {
                 if (position < mData.size()) {
-                    for (int i = 0, len = 3; i < len; i++) {
-                        Account ac = new Account();
-                        ac.setNonce(i);
-                        mData.add(ac);
-                    }
                 }
             }
         });
