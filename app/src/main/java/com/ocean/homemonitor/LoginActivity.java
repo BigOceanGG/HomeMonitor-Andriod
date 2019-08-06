@@ -78,9 +78,8 @@ public class LoginActivity extends BaseActivity {
             public void onClick(View v) {
                 String password = mBinding.etPassword.getText().toString();
                 if(password.equals("123")){
-                    //mLoadTask = new LoadTask().execute(password);
-                    finish();
-                    MainActivity.launch(mActivity, true);
+                    mLoadTask = new LoadTask().execute(password);
+
                     return;
                 }
                 mBinding.etPassword.setText("");
@@ -112,7 +111,7 @@ public class LoginActivity extends BaseActivity {
             String password = params[0];
             try {
                 //在调用sleep()方法的过程中，线程不会释放对象锁。
-                Thread.sleep(3000);
+                Thread.sleep(1000);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -128,7 +127,9 @@ public class LoginActivity extends BaseActivity {
         @Override
         protected void onPostExecute(String str) {
             hideLoading();
-            showPasswordErrorDialog();
+            //showPasswordErrorDialog();
+            finish();
+            MainActivity.launch(mActivity, true);
         }
     }
 
