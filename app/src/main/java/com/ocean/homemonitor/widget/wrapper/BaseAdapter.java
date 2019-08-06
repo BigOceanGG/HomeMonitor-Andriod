@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.widget.wrapper;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;

@@ -5,6 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.ocean.homemonitor.main.MainActivity;
+import com.ocean.homemonitor.widget.BaseActivity;
+
 public class GenerateActivity extends BaseActivity implements View.OnClickListener{
 
     @Override

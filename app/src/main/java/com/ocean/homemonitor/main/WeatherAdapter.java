@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.main;
 
 import android.content.Context;
 import android.databinding.ViewDataBinding;
@@ -7,7 +7,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.ocean.homemonitor.R;
+import com.ocean.homemonitor.account.Account;
 import com.ocean.homemonitor.databinding.WetherItemBinding;
+import com.ocean.homemonitor.utils.DisplayUtil;
+import com.ocean.homemonitor.widget.wrapper.BaseAdapter;
 
 import java.util.List;
 

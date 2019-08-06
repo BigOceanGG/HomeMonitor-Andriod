@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.account;
 
 public class Account {
     private long nonce;

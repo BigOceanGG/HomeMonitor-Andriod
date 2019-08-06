@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.widget;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -17,6 +17,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+
+import com.ocean.homemonitor.App;
+import com.ocean.homemonitor.R;
+import com.ocean.homemonitor.utils.ToastUtil;
 
 import java.io.IOException;
 

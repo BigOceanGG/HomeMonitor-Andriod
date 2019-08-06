@@ -1,10 +1,12 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.ocean.homemonitor.R;
 
 public class XTabItem extends View {
     public final CharSequence mText;

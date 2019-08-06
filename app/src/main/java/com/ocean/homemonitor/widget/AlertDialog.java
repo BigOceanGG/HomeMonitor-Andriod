@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.widget;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.ocean.homemonitor.R;
 
 public class AlertDialog extends AppCompatDialog implements View.OnClickListener {
 

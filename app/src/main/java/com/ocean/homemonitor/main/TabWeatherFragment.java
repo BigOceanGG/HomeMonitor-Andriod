@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.main;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -7,8 +7,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.ocean.homemonitor.R;
+import com.ocean.homemonitor.account.Account;
 import com.ocean.homemonitor.databinding.FragmentTabWeatherBinding;
 import com.ocean.homemonitor.databinding.WetherItemBinding;
+import com.ocean.homemonitor.widget.BaseFragment;
+import com.ocean.homemonitor.widget.wrapper.BaseAdapter;
+import com.ocean.homemonitor.widget.wrapper.HeaderAndFooterWrapper;
 
 import java.util.ArrayList;
 import java.util.List;

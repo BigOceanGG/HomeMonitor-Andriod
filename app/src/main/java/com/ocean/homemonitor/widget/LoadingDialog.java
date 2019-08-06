@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.widget;
 
 
 import android.app.Dialog;
@@ -11,6 +11,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
+
+import com.ocean.homemonitor.R;
 
 public class LoadingDialog extends Dialog {
     private Context mContext;

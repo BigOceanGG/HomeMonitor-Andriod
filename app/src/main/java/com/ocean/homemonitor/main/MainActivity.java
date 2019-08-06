@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.main;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -23,7 +23,12 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.ocean.homemonitor.App;
+import com.ocean.homemonitor.R;
 import com.ocean.homemonitor.databinding.ActivityMainBinding;
+import com.ocean.homemonitor.utils.Constants;
+import com.ocean.homemonitor.utils.SPUtils;
+import com.ocean.homemonitor.widget.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;

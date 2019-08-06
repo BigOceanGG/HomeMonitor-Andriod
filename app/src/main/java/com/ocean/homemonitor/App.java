@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
+import com.ocean.homemonitor.utils.Constants;
+import com.ocean.homemonitor.utils.SPUtils;
+
 import java.lang.ref.WeakReference;
 import java.util.LinkedList;
 import java.util.Locale;

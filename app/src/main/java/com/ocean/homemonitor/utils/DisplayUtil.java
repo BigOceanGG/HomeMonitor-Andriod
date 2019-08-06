@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.utils;
 
 import android.app.Activity;
 import android.content.Context;

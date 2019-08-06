@@ -1,6 +1,7 @@
 package com.ocean.homemonitor;
 
 import android.os.Bundle;
+import com.ocean.homemonitor.widget.BaseActivity;
 
 public class SplashActivity extends BaseActivity {
 

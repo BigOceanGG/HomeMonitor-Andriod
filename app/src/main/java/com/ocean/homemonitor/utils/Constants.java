@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.utils;
 
 public class Constants {
     public static final String MONITOR = "monitor";

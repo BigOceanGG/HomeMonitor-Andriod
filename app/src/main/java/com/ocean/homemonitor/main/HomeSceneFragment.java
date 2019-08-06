@@ -1,4 +1,4 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.main;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -9,7 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.ocean.homemonitor.R;
 import com.ocean.homemonitor.databinding.FragmentHomeSceneBinding;
+import com.ocean.homemonitor.widget.BaseFragment;
 
 import java.util.ArrayList;
 import java.util.List;

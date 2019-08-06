@@ -14,11 +14,16 @@ import android.text.TextWatcher;
 import android.view.View;
 
 import com.ocean.homemonitor.databinding.ActivityLoginBinding;
+import com.ocean.homemonitor.main.MainActivity;
+import com.ocean.homemonitor.utils.KeyboardUtil;
+import com.ocean.homemonitor.utils.ToastUtil;
+import com.ocean.homemonitor.widget.AlertDialog;
+import com.ocean.homemonitor.widget.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class LoginActivity extends BaseActivity{
+public class LoginActivity extends BaseActivity {
 
     private ActivityLoginBinding mBinding;
     private AsyncTask mLoadTask = null;
@@ -73,7 +78,7 @@ public class LoginActivity extends BaseActivity{
             public void onClick(View v) {
                 String password = mBinding.etPassword.getText().toString();
                 if(password.equals("123")){
-                    mLoadTask = new LoadTask().execute(password);
+                    //mLoadTask = new LoadTask().execute(password);
                     finish();
                     MainActivity.launch(mActivity, true);
                     return;

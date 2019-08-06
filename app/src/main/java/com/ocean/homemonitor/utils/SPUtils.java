@@ -1,7 +1,9 @@
-package com.ocean.homemonitor;
+package com.ocean.homemonitor.utils;
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+
+import com.ocean.homemonitor.App;
 
 public class SPUtils {
 
